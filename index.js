@@ -14,7 +14,8 @@ app.use("/api/users", userRouter);
 const PORT = 3000;
 
 app.listen(PORT, () => {
-  console.log(`server listening on port ${PORT}`);
+  console.log(`server listening on port ${PORT} ! !`);
 
   connectToMongoDb();
 });
+fi
